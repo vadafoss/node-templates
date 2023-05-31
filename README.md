@@ -72,3 +72,6 @@ node kind-worker2
 ### References
 * decoding `---` separated objects: https://github.com/kubernetes/client-go/issues/193#issuecomment-1331874345
 * decoding node objects: https://github.com/kubernetes/client-go/issues/193#issuecomment-1331845479
+* decoding `RawExtension`: https://github.com/kubernetes/apimachinery/issues/102
+* converting `runtime.Object` to `v1.Node`: https://github.com/kubernetes/client-go/issues/401#issuecomment-384616494
+* creating multi-node `kind` cluster: https://mcvidanagama.medium.com/set-up-a-multi-node-kubernetes-cluster-locally-using-kind-eafd46dd63e5
